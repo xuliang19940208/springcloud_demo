@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: web-class
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10088/eureka
+        #配置当前的注册中心不能获取其他的微服务地址
